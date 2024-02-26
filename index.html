@@ -7,8 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button>change heading color</button>
-    <h1>Tic Tac Toe</h1>
+    <h1>Tic-Tac-Toe</h1>
+    <button onclick="game.restart()">Restart</button>
+    <div class="pickLabel">Pick player one</div>
+    <div class="choice">
+        <button onclick="game.pickerX()">X</button>
+        <button onclick="game.pickerO()">O</button>
+    </div>
+    <div class="game-display">
+        <a onclick="game.init(0)" class="cell 0"></a>
+        <a onclick="game.init(1)" class="cell 1"></a>
+        <a onclick="game.init(2)" class="cell 2"></a>
+        <a onclick="game.init(3)" class="cell 3"></a>
+        <a onclick="game.init(4)" class="cell 4"></a>
+        <a onclick="game.init(5)" class="cell 5"></a>
+        <a onclick="game.init(6)" class="cell 6"></a>
+        <a onclick="game.init(7)" class="cell 7"></a>
+        <a onclick="game.init(8)" class="cell 8"></a>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>

@@ -1,5 +1,64 @@
 /*checking if stylesheet is working*/
-
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
 h1{
-    color:red;
+    color:blueviolet;
+}
+
+.game-display{
+    display: flex;
+    flex-wrap: wrap;
+    width: 19.5rem;
+}
+
+.cell{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:3px solid black;
+    width: 6rem;
+    height: 6rem;
+    font-size: 6rem;
+    text-align: center;
+    text-justify: center;
+}
+
+.cell:hover{
+    background-color: lightblue;
+}
+
+button{
+    margin-bottom: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border:1px solid black;
+}
+
+button:hover{
+    background-color: white;
+    border:1px solid black;
+    color: black;
+}
+
+.choice{
+    display:flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.xwin{
+    color:rgb(8, 183, 51) ;
+}
+
+.owin{
+    color: rgba(239, 10, 10, 0.801);
+}
+
+.pickLabel{
+    font-size: 1.5rem;
 }
