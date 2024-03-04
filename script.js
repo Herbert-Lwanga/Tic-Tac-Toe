@@ -26,7 +26,7 @@ const game =(function() {
     const pickerO = () => {
         playerOnePicker = true;
         playerOneChoice = "O";
-        playerTwoChoice = "x";
+        playerTwoChoice = "X";
         console.log(`player one choice : ${playerOneChoice}\nplayer two choice : ${playerTwoChoice}`)
     }
 
